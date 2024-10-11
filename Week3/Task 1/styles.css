@@ -1,0 +1,29 @@
+.brownbear{
+    margin: 0 auto;
+    padding: 8px 24px;
+    width: 500px;
+    font-size: 15px;
+    border: 1px solid #bfe1f1;
+    background: #bfe1f1;
+    box-shadow: 0 0 10px 2px #333333;
+}
+.brownbear ul{
+    color: chocolate;
+    margin: 10px;
+}
+.brownbear ol{
+    color: red;
+    margin: 10px;
+}
+.brownbear p{
+    text-align:justify;
+}
+.brownbear h1{
+    text-align: center;
+}
+
+
+.img {
+    text-align: center;
+    
+}
