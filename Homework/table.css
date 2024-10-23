@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    border-collapse: separate;
+    font-family: "Times New Roman", Times, serif;
+    border-spacing: 2px;
+    background-color: #cecece;
+    width: 500px;
+    margin: 0 auto;
+}
+th,td {
+    border:1px solid black;
+    padding: 8px;
+
+}
+thead{
+    text-align: center;
+
+}
+tbody{
+    text-align: left;
+}
+tfoot td {
+    border : 1px solid black;
+    text-align: right ;
+}
