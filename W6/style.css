@@ -1,0 +1,55 @@
+/*span#id1{
+    color: blue;
+}
+span.highlight{
+    background-color: blanchedalmond;
+    color: red;
+}
+#id2{
+    color: green;
+}*/
+span+p{
+    font-style: italic;
+    font-weight: bold;
+}
+div.item > a{
+    color: green;
+    font-weight: bold;
+}
+.underline{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bold;
+}
+.highlight{
+    color: blue;
+    background-color: yellow;
+}
+
+p[mycustomattribute]{
+    color: green;
+}
+p[mycustomattribute="test"]{
+    color: orange;
+}
+h1, p {
+    color: green;
+}
+p.hoverClass:hover{
+    color: rgb(118, 20, 112);
+    text-decoration: underline;
+}    
+a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+a:visited{
+    color: pink;
+}
+a:link{
+    color: brown;
+}
+ul:active{
+    background: yellow;
+}
