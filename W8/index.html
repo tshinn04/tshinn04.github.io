@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Demo</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h1>JavaScript Demo</h1>
+    <input type "text" id="a_value" >
+    <p id="result"></p>
+    <button onclick="calculate()">Calculate</button>
+    <!-- reset button to blank the input-->
+     <button onclick="reset()">Reset</button>
+    <script>
+        function calculate(){
+            var a = document.getElementById("a_value").value;
+            var result= a*2
+            alert (result);
+        }
+        function reset(){
+            //confirm before reset
+            var confirm_reset = confirm("Are you sure you want to reset?");
+            if (confirm_reset == true){
+                document.getElementById("a_value").value = "";
+            }
+        }
+    </script>
+</body>
+</html>
