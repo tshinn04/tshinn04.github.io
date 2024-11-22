@@ -39,5 +39,5 @@ function calculate(operator) {
         return;
     }
     result = Math.round(result * 100) / 100;
-    resultElement.textContent = `Result: ${result}`;
+    resultElement.textContent = 'Result: '+ result;
   }
