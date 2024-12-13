@@ -12,26 +12,38 @@
     <h1 id="registrationForm">Registration Form</h1>
         <div>
             <label for="username">Username:</label>
-            <input type="text" id="username" name="username" required>
-            <div class="error" id="usernameError"></div>
+            <input type="text" id="username" name="username" minlength="3" required>
+            <span class="error" id="usernameError"></span>
+
         </div>
         <div>
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-            <div class="error" id="emailError"></div>
+            <span class="error" id="emailError"></span>
+
         </div>
         <div>
             <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
-            <div class="error" id="passwordError"></div>
+            <span class="error" id="passwordError"></span>
+
         </div>
         <div>
             <label for="confirmPassword">Confirm Password:</label>
             <input type="password" id="confirmPassword" name="confirmPassword" required>
-            <div class="error" id="confirmPasswordError"></div>
+            <span class="error" id="confirmPasswordError"></span>
+
         </div>
+        <div>
+            <label for="phonenumber">Phone Number: </label>
+            <input type="tel" id="phonenumber" name="phonenumber" required placeholder="XXX-XXX-XXXX">
+            <span class="error" id="phoneError"></span>
+        </div>
+        <br>
         <button type="submit">Register</button>
     </form>
+    <div class="success-message" id="successMessage"></div>
+
 </div>
 
 <script src="cript.js"></script>
