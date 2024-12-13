@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h1 id="registrationForm">Registration Form</h1>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <div class="error" id="usernameError"></div>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <div class="error" id="emailError"></div>
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <div class="error" id="passwordError"></div>
+        </div>
+        <div>
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required>
+            <div class="error" id="confirmPasswordError"></div>
+        </div>
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+<script src="cript.js"></script>
+
+</body>
+</html>
