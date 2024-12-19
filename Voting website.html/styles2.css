@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Nền sáng */
+}
+
+header {
+    background: linear-gradient(90deg, #4a90e2, #50e3c2); /* Gradient cho header */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Đặt các phần tử theo chiều dọc */
+    align-items: flex-start; /* Căn trái cho các phần tử */
+}
+
+h1 {
+
+    margin: auto
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between; /* Căn giữa các phần tử trong header */
+    width: 100%; /* Đảm bảo chiều rộng đầy đủ */
+    margin-top: 10px; /* Khoảng cách giữa tiêu đề và các phần tử khác */
+}
+#user-info {
+    display: flex;
+    align-items: center;
+}
+
+#username-display {
+    margin-right: 15px;
+    font-weight: bold; /* Làm đậm tên người dùng */
+}
+
+#login-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid #fff; /* Đường viền trắng */
+    border-radius: 5px; /* Bo góc cho nút */
+    transition: background 0.3s; /* Hiệu ứng chuyển màu */
+
+}
+#search{
+    margin:auto;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+#login-link:hover {
+    background: rgba(255, 255, 255, 0.2); /* Hiệu ứng hover */
+ 
+}
+
+main {
+    padding: 20px;
+    max-width: 800px; /* Giới hạn chiều rộng của main */
+    margin: auto; /* Căn giữa main */
+    background: #fff; /* Nền trắng cho main */
+    border-radius: 8px; /* Bo góc cho main */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng cho main */
+}
+
+h2 {
+    color: #333; /* Màu chữ cho tiêu đề */
+}
+
+#artists {
+    margin-bottom: 20px;
+}
+.artist-name {
+    font-weight: bold; /* In đậm tên nghệ sĩ */
+    margin-left: 50px; /* Cách lề 10px */
+}
+ul {
+    list-style-type: none; /* Bỏ dấu chấm cho danh sách */
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between; /* Căn giữa các phần tử trong li */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    padding: 10px;
+    border: 1px solid #ddd; /* Đường viền xám cho mỗi nghệ sĩ */
+    border-radius: 5px; /* Bo góc cho mỗi nghệ sĩ */
+    margin-bottom: 10px; /* Khoảng cách giữa các nghệ sĩ */
+    transition: background 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+li:hover {
+    background: #f9f9f9; /* Hiệu ứng hover cho mỗi nghệ sĩ */
+}
+
+button {
+    background-color: #4a90e2; /* Màu nền cho nút */
+    color: white;
+    border: none;
+    border-radius: 5px; /* Bo góc cho nút */
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background 0.3s; /* Hiệu ứng chuyển màu */
+    margin-right: 75px;
+}
+
+button:hover {
+    background-color: #357ab8; /* Đổi màu khi hover */
+}
+
+#results {
+    margin-top: 20px;
+}
+
+#error-message,
+#register-message {
+    margin-top: 10px;
+    text-align: center; /* Căn giữa thông báo */
+    color: red; /* Màu đỏ cho thông báo lỗi */
+}

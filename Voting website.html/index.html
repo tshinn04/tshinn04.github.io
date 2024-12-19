@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote for your favorite artist</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <h1>Vote for your favorite artist</h1>
+        <div id="user-info">
+            <span id="username-display" style="display: none;"></span>
+            <a id="login-link" href="login.html">Login</a>
+        </div>
+        <input type="text" id="search" placeholder="Looking for artists...">
+        <button onclick="search()" id="search">Search</button>
+    </header>
+    <main>
+        <section id="artists">
+            <h2>Artist List</h2>
+            <ul id="artist-list">
+                <li>
+                    <span class="artist-name">Erik</span>
+                    <img src="Erik.jpg" alt="" width="200">
+                    <button onclick="vote('Erik')">Vote</button>
+                </li>
+                <li>
+                    <span class="artist-name">Negav</span>
+                    <img src="negav.jpg" alt="" width="200">
+                    <button onclick="vote('Negav')">Vote</button>
+                </li>
+                <li>
+                    <span class="artist-name">HIEUTHUHAI</span>
+                    <img src="ht2.jpg" alt="" width="200">
+                    <button onclick="vote('HIEUTHUHAI')">Vote</button>
+                </li>
+                <li>
+                    <span class="artist-name">Hurrykng</span>
+                    <img src="hurrykng.jpg" alt="" width="200">
+                    <button onclick="vote('Hurrykng')">Vote</button>
+                </li>
+                <li>
+                    <span class="artist-name">Weantodale</span>
+                    <img src="wean.jpg" alt="" width="200">
+                    <button onclick="vote('Weantodale')">Vote</button>
+                </li>
+            </ul>
+        </section>
+        <section id="results">
+            <h2>Voting Results</h2>
+            <ul id="vote-results"></ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
